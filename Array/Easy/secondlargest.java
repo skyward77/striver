@@ -4,7 +4,7 @@ package Array.Easy;
     
 
 
-class solution {
+class lala{
     public int getsecondlargest(int[] nums) {
         int largest = nums[0];
         int second = -1;
@@ -26,7 +26,7 @@ class solution {
 public class secondlargest {
     public static void main(String[] args) {
 
-        solution obj = new solution();
+        lala obj = new lala();
 
         int[] num = {2, 3, 4, 5, 6, 7, 8};
 
