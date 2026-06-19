@@ -1,4 +1,4 @@
-package Array.Easy;
+package Array.Medium;
 //agr sum neg hojaye to chordo fresh start kro
 class max{
     public int maxsum(int[] nums){

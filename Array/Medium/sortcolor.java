@@ -1,4 +1,4 @@
-package Array.Easy;
+package Array.Medium;
 class color{
     public void sort(int[] nums){
         int low=0,mid=0,high=nums.length-1;
