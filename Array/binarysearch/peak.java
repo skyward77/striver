@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 class ele{
     public int peak(int[] nums){
         int left=0;

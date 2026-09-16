@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 class Solut {
     public int smallestDivisor(int[] nums, int threshold) {
         int left=1;

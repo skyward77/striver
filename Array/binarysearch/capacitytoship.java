@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
         int left=0;

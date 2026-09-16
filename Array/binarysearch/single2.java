@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 class Solu {
     public int singleNonDuplicate(int[] nums) {
         int left=0;

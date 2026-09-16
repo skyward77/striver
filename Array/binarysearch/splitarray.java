@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 class split {
     public int splitArray(int[] nums, int k) {
         int left=0;

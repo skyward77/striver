@@ -1,26 +1,23 @@
-package Array.all;
-
-class rot{
-    public boolean search(int[] nums,int target){
+package Array.binarysearch;
+class rotate{
+    public int search(int[] nums,int target){
         int left=0;
         int right=nums.length-1;
         while(left<=right){
             int mid=left+(right-left)/2;
             if(nums[mid]==target){
-                return true;
+                return mid;
             }
-            if(nums[left]==nums[mid]&&nums[mid]==nums[right]){
-                left++;
-                right--;
-            }
-            else if(nums[left]<=nums[mid]){
-                if(nums[left]<=target&&target<nums[right]){
+            //left half is sorted
+            if(nums[left]<=nums[mid]){
+                if(nums[left]<=target&&target<nums[mid]){
                     right=mid-1;
                 }
                 else{
                     left=mid+1;
                 }
             }
+            //right half is sorted
             else{
                 if(nums[mid]<target&&target<=nums[right]){
                     left=mid+1;
@@ -30,17 +27,19 @@ class rot{
                 }
             }
         }
-        return false;
+        return -1;
     }
 }
 
-public class searchrotate2 {
+public class searchrotate {
     public static void main(String[] args) {
-        rot obj=new rot();
+        rotate obj=new rotate();
         int[] arr={5,6,7,1,2,3};
-        boolean result=obj.search(arr,2);
+        int result=obj.search(arr,3);
         System.out.println(result);
 
-    }
+        }
+        }
     
-}
+    
+

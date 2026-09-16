@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 import java.util.Scanner;
 
 

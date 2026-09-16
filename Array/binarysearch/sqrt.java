@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 class sqr{
     public int sqrt(int x){
 

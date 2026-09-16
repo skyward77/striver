@@ -1,4 +1,4 @@
-package Array.all;
+package Array.binarysearch;
 class pos{
     public int insert(int[] nums,int target){
         int left=0;
