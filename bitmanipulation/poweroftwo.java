@@ -1,4 +1,4 @@
-package bit.manipulation;
+package bitmanipulation;
 class solutuon{
     public boolean ispoweroftwo(int n){
         if(n<=0){
